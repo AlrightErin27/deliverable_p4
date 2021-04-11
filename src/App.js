@@ -41,21 +41,31 @@ function App() {
     const { width, height } = context.canvas;
     context.clearRect(0, 0, width, height);
   };
-
+  //////////////////////////////////////////////
   //insert drawn fxn into canvas component
   const draw = (ctx, frameCount) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-    ctx.fillStyle = "#000000";
+    //controls ball's color
+    ctx.fillStyle = "#800000";
     ctx.beginPath();
-    ctx.arc(50, 100, 20 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
+    //first two arguments control where the circle is on the canvas
+    //third argument controls balls largest size
+    //what frame count is multiplied by controls what frequency the ball enlarges
+    ctx.arc(150, 120, 30 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
     ctx.fill();
   };
+  //////////////////////////////////////////////
   const postdraw = (index, ctx) => {
     index++;
     ctx.restore();
   };
 
-  return <Canvas draw={draw} className="canvas-one" />;
+  return (
+    <div className="app-main-container">
+      <h1>Happy lil guy!</h1>
+      <Canvas draw={draw} className="canvas-one" />
+    </div>
+  );
 }
 
 export default App;
