@@ -2,3 +2,7 @@
   text-align: center;
   background-color: rgb(214, 122, 122);
 }
+.canvas-one {
+  background-color: red;
+  height: 500px;
+}

@@ -8,8 +8,11 @@ const useCanvas = (draw, options = {}) => {
     const context = canvas.getContext(options.context || "2d");
     let frameCount = 0;
     let animationFrameId;
+
+    /////////Render Fxn/////////////
     const render = () => {
       frameCount++;
+      //draw fxn
       draw(context, frameCount);
       animationFrameId = window.requestAnimationFrame(render);
     };
