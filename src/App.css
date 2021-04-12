@@ -1,11 +1,35 @@
-.main-app-container {
-  text-align: center;
-  background-color: rgb(214, 122, 122);
-}
-.canvas-one {
-  background-color: rgba(255, 0, 0, 0.357);
-  height: 600px;
-}
+/* Book Cover Font */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+/* font-family: "Cinzel", serif; */
+
+/* 8 Bit Font */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* font-family: 'Press Start 2P', cursive; */
+
+/* Cursive Font */
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+/* font-family: 'Tangerine', cursive; */
+
+/* Type Writer Font */
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+/* font-family: 'Special Elite', cursive; */
+
 .app-main-container {
   text-align: center;
+  color: rgb(166, 189, 161);
+  font-family: "Cinzel", serif;
 }
+.h2-title-text {
+  font-family: "Tangerine", cursive;
+  font-size: 60px;
+  margin: -5px;
+}
+.h3-title-text {
+  font-family: "Tangerine", cursive;
+  font-size: 40px;
+  margin: 2px;
+}
+/* .canvas-one {
+  background-color: rgba(255, 0, 0, 0.357);
+  height: 600px;
+} */
