@@ -1,0 +1,21 @@
+{
+    "cSpell.ignoreWords": [
+        "canvas",
+        "clear",
+        "const",
+        "context",
+        "ctx",
+        "display",
+        "height",
+        "index",
+        "postdraw",
+        "predraw",
+        "rect",
+        "resize",
+        "restore",
+        "save",
+        "size",
+        "to",
+        "width"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "startStory": {
+    "story": "You awaken, disheveled and alone. Cold damp air fills your lungs. Where am I? How did I get here? You are plagued with questions. Your eyes slowly adjust to the darkness and to your horror you realize you are at the entrance of the ancient Witch's Cavern. You hear her muffled call hanging in the air.",
+    "choiceA": "You are enticed. The tales of power bestowed to those who survive moves you forward into the dark mouth of the cave.",
+    "choiceB": "You haven't gotten this far in life by falling for such evil as this! Try and find a path home."
+  },
+  "aStory": {
+    "story": "example",
+    "choiceA": "blah",
+    "choiceB": "humbug"
+  },
+  "bStory": {
+    "story": "text here",
+    "choiceA": "smelly",
+    "choiceB": "snail"
+  }
+}
