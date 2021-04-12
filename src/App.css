@@ -16,18 +16,37 @@
 
 .app-main-container {
   text-align: center;
-  color: rgb(166, 189, 161);
+  color: rgb(255, 224, 45);
   font-family: "Cinzel", serif;
 }
 .h2-title-text {
   font-family: "Tangerine", cursive;
   font-size: 60px;
   margin: -5px;
+  color: rgb(166, 189, 161);
 }
 .h3-title-text {
   font-family: "Tangerine", cursive;
   font-size: 40px;
   margin: 2px;
+  color: rgb(166, 189, 161);
+}
+.candle {
+  margin: 70px;
+  height: 450px;
+}
+.simple-button {
+  box-shadow: 4px 4px 12px 0px #899599;
+  background-color: transparent;
+  border: 2px solid #a4edb5;
+  cursor: grab;
+  color: #ffffff;
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  padding: 19px 25px;
+}
+.simple-button:hover {
+  background-color: rgba(255, 255, 255, 0.597);
 }
 /* .canvas-one {
   background-color: rgba(255, 0, 0, 0.357);

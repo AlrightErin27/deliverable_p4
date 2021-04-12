@@ -1,38 +1,39 @@
 import "./App.css";
 import React from "react";
-import Canvas from "./components/Canvas";
+// import Canvas from "./components/Canvas";
+import candle from "./game-imgs/candle.gif";
 
 function App() {
   //////////////////Logical Size Fxn///////////////////////////////
   //this fxn allows css to determine the size of the the canvas
-  function resizeCanvasToDisplaySize(canvas) {
-    const { width, height } = canvas.getBoundingClientRect();
+  // function resizeCanvasToDisplaySize(canvas) {
+  //   const { width, height } = canvas.getBoundingClientRect();
 
-    if (canvas.width !== width || canvas.height !== height) {
-      canvas.width = width;
-      canvas.height = height;
-      return true; // here you can return some useful info
-      //like delta width and delta height instead of just true
-      // this info can be used in the next redraw...
-    }
-    return false;
-  }
+  //   if (canvas.width !== width || canvas.height !== height) {
+  //     canvas.width = width;
+  //     canvas.height = height;
+  //     return true; // here you can return some useful info
+  //     //like delta width and delta height instead of just true
+  //     // this info can be used in the next redraw...
+  //   }
+  //   return false;
+  // }
   ////////////////////////////////////////////////////////////////
   //this fxn makes the image not appear blurry or pixelated at any size
-  function resizeCanvas(canvas) {
-    const { width, height } = canvas.getBoundingClientRect();
+  // function resizeCanvas(canvas) {
+  //   const { width, height } = canvas.getBoundingClientRect();
 
-    if (canvas.width !== width || canvas.height !== height) {
-      const { devicePixelRatio: ratio = 1 } = window;
-      const context = canvas.getContext("2d");
-      canvas.width = width * ratio;
-      canvas.height = height * ratio;
-      context.scale(ratio, ratio);
-      return true;
-    }
+  //   if (canvas.width !== width || canvas.height !== height) {
+  //     const { devicePixelRatio: ratio = 1 } = window;
+  //     const context = canvas.getContext("2d");
+  //     canvas.width = width * ratio;
+  //     canvas.height = height * ratio;
+  //     context.scale(ratio, ratio);
+  //     return true;
+  //   }
 
-    return false;
-  }
+  //   return false;
+  // }
   ////////////////////////////////////////////////////////////////
 
   // const predraw = (context, canvas) => {
@@ -65,6 +66,10 @@ function App() {
       <h1>Choose Your Own Adventure!</h1>
       <h2 className="h2-title-text">The Tale of a Wondering Soul</h2>
       <h3 className="h3-title-text">In the Withering Kingdom of Halyth</h3>
+      <img src={candle} alt="flickeringCandle" className="candle" />
+      <div>
+        <button className="simple-button">Begin Adventure</button>
+      </div>
       {/* <Canvas draw={draw} className="canvas-one" /> */}
     </div>
   );
