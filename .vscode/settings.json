@@ -10,6 +10,7 @@
         "index",
         "postdraw",
         "predraw",
+        "raydom",
         "rect",
         "resize",
         "restore",
