@@ -15,23 +15,23 @@
     "choiceB": "The noise seems stark and frightening against the quiet. In your dreamy haze you see a small home unlike any dwelling you have seen before. Perhaps there you can find help for what ales you."
   },
   "cStory": {
-    "story": "You knock thrice upon the weathered witch's door, and it creaks open loudly. Her voice is filling your ears, warm and smooth like honey. She pulls you into a small intimate room. You can feel her presence behind you. Her boney hands clutching your shoulders harshly. 'Come to find your fortune? Look deeply into the eyes of Raydom the conqueror, who met his end here some 200 years ago in this very room!' Your attention is drawn to skull on the table surrounded by dripping candles. You gaze into the holes where the storied hero's eyes used to have been.",
-    "choiceA": "Your bravery in the face of such ghoulish conditions is seen by Raydom. He has weighed you soul found you to be the one to carry on his quest. There is a shrill scream and your surroundings swirl away. You are now the proud owner of the renowned Vorpal Blade of Edenith, entitling you to rule the 3 kingdoms or Halyth!",
-    "choiceB": ""
+    "story": "You knock thrice upon the weathered witch's door, and it creaks open loudly. Her voice is filling your ears, warm and smooth like honey. She pulls you into a small intimate room. You can feel her presence behind you. Her boney hands clutching your shoulders harshly. 'Come to find your fortune? Look deeply into the eyes of Raydom the conqueror, who met his end here some 200 years ago in this very room!' Your attention is drawn to skull on the table surrounded by dripping candles. You gaze into the holes where the storied hero's eyes used to have been. Your bravery in the face of such ghoulish conditions is seen by Raydom. He has weighed you soul found you to be the one to carry on his quest. There is a shrill scream and your surroundings swirl away. You are now the proud owner of the renowned Vorpal Blade of Edenith, entitling you to rule the Eight Kingdoms of Halyth!",
+    "choiceA": null,
+    "choiceB": null
   },
   "dStory": {
-    "story": "The smell of sweet fresh air feels like a restorative tonic. You gulp it down and head away from the witch's entanglement. You walk into what seems to be a light green whimsical garden. In front of you is a large tree, teeming with life and the sweet songs of birds. Your mouth is parched. You see the glistening clear water of a pond beneath its branches. In the shallows there is a glistening golden goblet. You reach down and pull it up filled with delicious crisp crystal water.",
-    "choiceA": "The water tastes foul in your mouth. Your cowardice has led you astray. The room was a mirage. A trap laid by the witch herself! You have been poisoned.",
-    "choiceB": ""
+    "story": "The smell of sweet fresh air feels like a restorative tonic. You gulp it down and head away from the witch's entanglement. You walk into what seems to be a light green whimsical garden. In front of you is a large tree, teeming with life and the sweet songs of birds. Your mouth is parched. You see the glistening clear water of a pond beneath its branches. In the shallows there is a glistening golden goblet. You reach down and pull it up filled with delicious crisp crystal water. The water tastes foul in your mouth. Your cowardice has led you astray. The room was a mirage. A trap laid by the witch herself! You have been poisoned.",
+    "choiceA": null,
+    "choiceB": null
   },
   "eStory": {
-    "story": "Your limbs are heavy, as if filled with sand. You fall and land hard on the base of a tree. To you horror, you realize you are face to face with a large skull that reeks of dark magic.",
-    "choiceA": "You have fallen into a witch's trap. You're surrounded by her deadly trinkets, and doomed to wait for her to come check her ensnarement.",
-    "choiceB": ""
+    "story": "Your limbs are heavy, as if filled with sand. You fall and land hard on the base of a tree. To you horror, you realize you are face to face with a large skull that reeks of dark magic. You have fallen into a witch's trap. You're surrounded by her deadly trinkets, and doomed to wait for her to come check her ensnarement.",
+    "choiceA": null,
+    "choiceB": null
   },
   "fStory": {
-    "story": "You approach the house and find that is an enormous toadstool, with a chimney puffing smoke. The aroma of elderflowers in the spring, and tangy rosemary fill your nose. You regain you composure, the spell lifted. ",
-    "choiceA": "A kind Gnibbling couple greets you at the door, and fills you up a long flagon of steaming mulder spice broth. They tell you of their missing child, and after your rest you vow to bring young Gnibblet home. You found your calling.",
-    "choiceB": ""
+    "story": "You approach the house and find that is an enormous toadstool, with a chimney puffing smoke. The aroma of elderflowers in the spring, and tangy rosemary fill your nose. You regain you composure, the spell lifted. A kind Gnibbling couple greets you at the door, and fills you up a long flagon of steaming mulder spice broth. They tell you of their missing child, and after your rest you vow to bring young Gnibblet home. You found your calling!",
+    "choiceA": null,
+    "choiceB": null
   }
 }
