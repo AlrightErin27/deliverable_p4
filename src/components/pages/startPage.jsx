@@ -9,13 +9,13 @@ const StartPage = () => {
   return (
     <div className="startPg-container">
       <div className="story-text">
-        <p className="paragraph">{gameState.story}</p>
+        <div className="paragraph">{gameState.story}</div>
       </div>
       <div className="start-canvas">
-        <button onClick={() => setGameState(gameState.choiceOne)}>
+        <button className="adventure-button" onClick={() => setGameState(gameState.choiceOne)}>
           {gameState.choiceOneText}
         </button>
-        <button onClick={() => setGameState(gameState.choiceTwo)}>
+        <button className="adventure-button" onClick={() => setGameState(gameState.choiceTwo)}>
           {gameState.choiceTwoText}
         </button>
       </div>

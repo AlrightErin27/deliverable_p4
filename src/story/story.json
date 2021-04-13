@@ -1,36 +1,36 @@
 {
   "startStory": {
-    "story": "You awaken, disheveled and alone. Cold damp air fills your lungs. Where are you? How did you get here? You are plagued with questions. Your eyes slowly adjust to the darkness and you realize you are at the entrance of the ancient Witch's Cavern. Bone chilling terror tingles down your spine. You hear her muffled call hanging in the air.",
-    "choiceA": "You are enticed. The tales of power bestowed to those who survive move you forward into the dark mouth of the cave.",
-    "choiceB": "You haven't gotten this far in life by falling for such treacherous evil as this! Try and find a path home."
+    "story": "You awaken disheveled & alone. Cold damp air fills your lungs.\nWhere are you?\nHow did you get here?\nYour eyes slowly adjust to the darkness & you realize you are at the entrance of the ancient Witch's Cavern.\n Bone chilling terror tingles down your spine as you hear her muffled call hanging in the air.",
+    "choiceA": "You are enticed.\nThe tales of power bestowed those survivers of the Witch's trial move you onward\n into the dark mouth of the cave.",
+    "choiceB": "You haven't gotten this far in life by falling for such treacherous evil as this!\n Try & find a path home."
   },
   "aStory": {
-    "story": "Your stiff limbs propel you forward, as if possessed. The cave is pitch black as you walk down what seems to be a long corridor. Time passes, but it feels meaningless. It could have been minutes or hours. Eventually you see a dim light that's coming from a large yawning hollow. Before you is a crooked house, reaching to ceiling of the giant cavern. You can see the lights are on, someone is home.",
-    "choiceA": "You have come this far. Glory is only earned by those who seek it! Meet the witch and realize your destiny.",
-    "choiceB": "You know a trap when you see one. You are no fool! Head down the tunnel on your right. You can feel fresh air oozing from the entrance."
+    "story": "Your stiff limbs propel you forward, as if possessed.\nThe cave is pitch black as you walk down what seems to be a long corridor.\nTime passes, but it feels meaningless.\nIt could have been minutes or hours.\nEventually you see a dim light that's coming from a large yawning hollow.\nBefore you is a crooked house, reaching to ceiling of the giant cavern.\nYou can see the lights are on, someone is home.",
+    "choiceA": "You have come this far.\nGlory is only earned by those who seek it!\nMeet the Witch & realize your destiny.",
+    "choiceB": "You know a trap when you see one.\nYou are no fool!\nHead down the tunnel on your right.\nYou can feel fresh air oozing from the entrance."
   },
   "bStory": {
-    "story": "You find your way through the lush forest along an old path. As you go along you start to notice how quiet it is. Deathly quiet. There is no turning back now! You trudge on.The silence is deafening and drains your energy. You stumble and fall. As you lay there, drooling into the dirt, you hear something... someone is crying. You stand up, attempting to get your wits about you.",
-    "choiceA": "You trudge forwards, you picture a beautiful fair maiden who needs saving! You move sluggishly towards the sound. You will be a hero and you shall be rewarded with gold and treasures. You will be the champion bards write of!",
-    "choiceB": "The noise seems stark and frightening against the quiet. In your dreamy haze you see a small home unlike any dwelling you have seen before. Perhaps there you can find help for what ales you."
+    "story": "You find your way through the lush forest along an old path.\nAs you go along you start to notice how quiet it is.\nDeathly quiet.\nThere is no turning back now!\nYou trudge on.\nThe silence is deafening & drains your energy.\nYou stumble & fall.\nAs you lay there, drooling into the dirt, you hear something... someone is crying.\nYou stand up, attempting to get your wits about you.",
+    "choiceA": "You trudge forwards, you picture a fragile fair maiden who needs saving!\nYou move sluggishly towards the sound.\nYou will be a hero & shall be rewarded with gold & treasures.\n You will be the champion bards write of of centuries!",
+    "choiceB": "The noise seems stark & frightening against the quiet.\nIn your dreamy haze you see a small home unlike any dwelling you have seen before.\nPerhaps there you can find help for what ales you."
   },
   "cStory": {
-    "story": "You knock thrice upon the weathered witch's door, and it creaks open loudly. Her voice is filling your ears, warm and smooth like honey. She pulls you into a small intimate room. You can feel her presence behind you. Her boney hands clutching your shoulders harshly. 'Come to find your fortune? Look deeply into the eyes of Raydom the conqueror, who met his end here some 200 years ago in this very room!' Your attention is drawn to skull on the table surrounded by dripping candles. You gaze into the holes where the storied hero's eyes used to have been. Your bravery in the face of such ghoulish conditions is seen by Raydom. He has weighed you soul found you to be the one to carry on his quest. There is a shrill scream and your surroundings swirl away. You are now the proud owner of the renowned Vorpal Blade of Edenith, entitling you to rule the Eight Kingdoms of Halyth!",
+    "story": "You knock thrice upon the weathered Witch's door, & it creaks open loudly.\nHer voice is filling your ears, warm & smooth like honey.\nShe pulls you into a small intimate room, feeling her presence behind you.\nHer boney fingers clutching your shoulders harshly.\n'Come to find your fortune? Look deeply into the eyes of Raydom the conqueror, who met his end here some 200 years ago in this very room!'\nYour attention is drawn to skull on the table surrounded by dripping c&les.\nYou gaze into the empty sockets where the storied hero's blue eyes used to have been.\nYour bravery in the face of such ghoulish conditions is seen by Raydom.\nHe has weighed your soul & you are the chosen one to carry on his quest.\nThere is a shrill scream & your surroundings swirl away. You are now the proud owner of the renowned Vorpal Blade of Edenith, entitling you to rule the Eight Kingdoms of Halyth!",
     "choiceA": null,
     "choiceB": null
   },
   "dStory": {
-    "story": "The smell of sweet fresh air feels like a restorative tonic. You gulp it down and head away from the witch's entanglement. You walk into what seems to be a light green whimsical garden. In front of you is a large tree, teeming with life and the sweet songs of birds. Your mouth is parched. You see the glistening clear water of a pond beneath its branches. In the shallows there is a glistening golden goblet. You reach down and pull it up filled with delicious crisp crystal water. The water tastes foul in your mouth. Your cowardice has led you astray. The room was a mirage. A trap laid by the witch herself! You have been poisoned.",
+    "story": "The smell of sweet fresh air feels like a restorative tonic.\nYou gulp it down & head away from the Witch's entanglement.\nYou walk into what seems to be a light green whimsical garden.\nIn front of you is a large tree, teeming with life & the sweet songs of birds.\nYour mouth is so parched.\nYou see the glistening clear water of a pond beneath its branches.\nIn the shallows there is a glistening golden goblet.\nYou reach into they pool & pull it up filled with delicious crisp crystal water.\nIt tastes foul in your mouth!\nYour cowardice has led you astray.\nThe room was a mirage. A trap laid by the Witch herself!\nYou have been poisoned!",
     "choiceA": null,
     "choiceB": null
   },
   "eStory": {
-    "story": "Your limbs are heavy, as if filled with sand. You fall and land hard on the base of a tree. To you horror, you realize you are face to face with a large skull that reeks of dark magic. You have fallen into a witch's trap. You're surrounded by her deadly trinkets, and doomed to wait for her to come check her ensnarement.",
+    "story": "Your limbs are heavy, as if filled with sand.\nYou fall & hit hard against the base of a tree.\nTo you horror, you realize you are face to face with a large skull reeking of noxious dark magic.\nYou have fallen into a Witch's trap!\nYou're surrounded by her deadly trinkets, & doomed to wait for her to come check her ensnarement.",
     "choiceA": null,
     "choiceB": null
   },
   "fStory": {
-    "story": "You approach the house and find that is an enormous toadstool, with a chimney puffing smoke. The aroma of elderflowers in the spring, and tangy rosemary fill your nose. You regain you composure, the spell lifted. A kind Gnibbling couple greets you at the door, and fills you up a long flagon of steaming mulder spice broth. They tell you of their missing child, and after your rest you vow to bring young Gnibblet home. You found your calling!",
+    "story": "You approach the house & find that is an enormous toadstool,\nwith a chimney puffing merry smoke.\nThe aroma of neillaflowers in the spring, & tangy rosemary fill your nose.\nYou regain you composure, the spell lifted.\nA kind Gnibbling couple greets you at the home's door, & fills you up a long flagon of steaming mulder spice broth.\nThey tell you of their missing child, & after your rest you vow to bring young Gnibblet home.\nYou found your calling!",
     "choiceA": null,
     "choiceB": null
   }

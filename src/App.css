@@ -75,7 +75,9 @@
   width: 100%;
 }
 .paragraph {
-  padding: 0 140px 0 140px;
+  /* padding: 0 140px 0 140px; */
+  white-space: pre-line;
+  max-width: 100vw;
 }
 /* Canvas Display*/
 .start-canvas {
@@ -83,4 +85,8 @@
   width: 100%;
   height: 80vh;
   background-size: 100% 100%;
+}
+.adventure-button {
+  white-space: pre-line;
+  /* width: 100px; */
 }
