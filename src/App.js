@@ -4,8 +4,8 @@ import React from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
 //Route to Page Imports
-import home from "./components/home";
-import startPage from "./components/startPage";
+import home from "./components/pages/home";
+import startPage from "./components/pages/startPage";
 
 function App() {
   //////////////////Logical Size Fxn///////////////////////////////
