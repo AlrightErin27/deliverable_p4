@@ -11,11 +11,23 @@ const StartPage = () => {
       <div className="story-text">
         <div className="paragraph">{gameState.story}</div>
       </div>
+
       <div className="start-canvas">
-        <button className="adventure-button" onClick={() => setGameState(gameState.choiceOne)}>
+        <img src={gameState.backgroundImg} alt="background" />
+      </div>
+
+      <div className="butt-holder">
+        <button
+          className="adventure-button"
+          onClick={() => setGameState(gameState.choiceOne)}
+        >
           {gameState.choiceOneText}
         </button>
-        <button className="adventure-button" onClick={() => setGameState(gameState.choiceTwo)}>
+
+        <button
+          className="adventure-button"
+          onClick={() => setGameState(gameState.choiceTwo)}
+        >
           {gameState.choiceTwoText}
         </button>
       </div>

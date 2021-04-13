@@ -10,7 +10,7 @@
     "choiceB": "You know a trap when you see one.\nYou are no fool!\nHead down the tunnel on your right.\nYou can feel fresh air oozing from the entrance."
   },
   "bStory": {
-    "story": "You find your way through the lush forest along an old path.\nAs you go along you start to notice how quiet it is.\nDeathly quiet.\nThere is no turning back now!\nYou trudge on.\nThe silence is deafening & drains your energy.\nYou stumble & fall.\nAs you lay there, drooling into the dirt, you hear something... someone is crying.\nYou stand up, attempting to get your wits about you.",
+    "story": "You find your way through the lush forest along an old path.\nAs you go along you start to notice how quiet it is.\nDeathly quiet.\nYet still, you trudge on.\nThe silence is deafening & drains your energy.\nYou stumble & fall.\nAs you lay there, drooling into the dirt, you hear something... someone is crying.\nYou stand up, attempting to get your wits about you.",
     "choiceA": "You trudge forwards, you picture a fragile fair maiden who needs saving!\nYou move sluggishly towards the sound.\nYou will be a hero & shall be rewarded with gold & treasures.\n You will be the champion bards write of of centuries!",
     "choiceB": "The noise seems stark & frightening against the quiet.\nIn your dreamy haze you see a small home unlike any dwelling you have seen before.\nPerhaps there you can find help for what ales you."
   },
@@ -30,7 +30,7 @@
     "choiceB": null
   },
   "fStory": {
-    "story": "You approach the house & find that is an enormous toadstool,\nwith a chimney puffing merry smoke.\nThe aroma of neillaflowers in the spring, & tangy rosemary fill your nose.\nYou regain you composure, the spell lifted.\nA kind Gnibbling couple greets you at the home's door, & fills you up a long flagon of steaming mulder spice broth.\nThey tell you of their missing child, & after your rest you vow to bring young Gnibblet home.\nYou found your calling!",
+    "story": "You approach the house & find that is an enormous toadstool,\nwith a chimney puffing merry smoke.\nThe aromas of neillaflowers in the spring, & tangy rosemary fills your nose.\nYou regain you composure, the spell lifted.\nA kind Gnibbling couple greets you at the home's door, & fills you up a long flagon of steaming mulder spice broth.\nThey tell you of their missing child, & after your rest you vow to bring young Gnibblet home.\nYou found your calling!",
     "choiceA": null,
     "choiceB": null
   }
