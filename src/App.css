@@ -58,7 +58,14 @@
 .startPg-container {
   background: url("./backgrounds/START.jpeg") no-repeat center fixed;
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-size: 100% 100%;
   border: 2px solid #e9385a;
+}
+.story-text {
+  text-align: center;
+  font-size: 30px;
+  z-index: -1;
+  border: 2px green solid;
+  color: white;
 }
