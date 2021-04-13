@@ -4,7 +4,7 @@ import React from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
 //Route to Page Imports
-import startPg from "./components/startPg";
+import home from "./components/home";
 
 function App() {
   //////////////////Logical Size Fxn///////////////////////////////
@@ -68,7 +68,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Switch>
-          <Route path="/" component={startPg} exact={true} />
+          <Route path="/" component={home} exact={true} />
         </Switch>
       </div>
     </BrowserRouter>

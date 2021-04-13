@@ -1,4 +1,5 @@
 import candle from "../game-imgs/candle.gif";
+import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
 const startPg = () => (
   <div className="app-main-container">
@@ -7,7 +8,9 @@ const startPg = () => (
     <h3 className="h3-title-text">In the Withering Kingdom of Halyth</h3>
     <img src={candle} alt="flickeringCandle" className="candle" />
     <div>
-      <button className="simple-button">Begin Adventure</button>
+      <Link to={"/startPage"} className="simple-button">
+        Begin Adventure
+      </Link>
     </div>
     {/* <Canvas draw={draw} className="canvas-one" /> */}
   </div>
