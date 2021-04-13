@@ -44,6 +44,7 @@
   font-family: "Press Start 2P", cursive;
   font-size: 15px;
   padding: 19px 25px;
+  text-decoration: none;
 }
 .simple-button:hover {
   background-color: rgba(255, 255, 255, 0.597);

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
 //Route to Page Imports
 import home from "./components/home";
+import startPage from "./components/startPage";
 
 function App() {
   //////////////////Logical Size Fxn///////////////////////////////
@@ -68,6 +69,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Switch>
+          <Route path="/start-page" component={startPage} exact={true} />
           <Route path="/" component={home} exact={true} />
         </Switch>
       </div>
