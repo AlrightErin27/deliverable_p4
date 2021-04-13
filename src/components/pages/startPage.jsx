@@ -7,25 +7,25 @@ const StartPage = () => {
   // console.log(gameState);
 
   return (
-    <div className="startPg-container">
+    <div className="story-container">
       <div className="story-text">
-        <div className="paragraph">{gameState.story}</div>
+        <div className="story-paragraph">{gameState.story}</div>
       </div>
 
-      <div className="start-canvas">
+      <div className="story-background">
         <img src={gameState.backgroundImg} alt="background" />
       </div>
 
       <div className="butt-holder">
         <button
-          className="adventure-button"
+          className="story-button"
           onClick={() => setGameState(gameState.choiceOne)}
         >
           {gameState.choiceOneText}
         </button>
 
         <button
-          className="adventure-button"
+          className="story-button"
           onClick={() => setGameState(gameState.choiceTwo)}
         >
           {gameState.choiceTwoText}

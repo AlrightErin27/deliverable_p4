@@ -60,13 +60,11 @@
   height: 600px;
 } */
 
-/* ///////////////////////////GAME PLAY PAGES////////////////////////////// */
-/* Main Start Page Container*/
-.startPg-container {
+/* ///////////////////////////GAME PLAY PAGE////////////////////////////// */
+.story-container {
   display: grid;
   max-height: 100vh;
 }
-/* Story Display*/
 .story-text {
   text-align: center;
   font-size: 3.2vh;
@@ -78,23 +76,29 @@
   width: 99vw;
   z-index: 1;
 }
-.paragraph {
+.story-paragraph {
   white-space: pre-line;
   max-width: 100vw;
   z-index: 0;
 }
-/* Canvas Display*/
-.start-canvas {
-  width: 88vw;
-  height: 80vh;
+.story-background {
+  width: 100vw;
+  height: 100vh;
   background-size: 100% 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: -1;
-  display: inline-block;
+  display: flex;
   position: fixed;
 }
-
-.adventure-button {
+.butt-holder {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80%;
+  right: 0;
+}
+.story-button {
+  margin: 23px;
+  white-space: pre-line;
+  font-family: "Press Start 2P", cursive;
+  line-height: 1.3;
 }
