@@ -14,6 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 /* font-family: 'Special Elite', cursive; */
 
+/* ///////////////////////////HOME PAGE ITEMS////////////////////////////// */
 .heading-text {
   text-align: center;
   color: rgb(247, 227, 8);
@@ -49,23 +50,33 @@
 .simple-button:hover {
   background-color: rgba(255, 255, 255, 0.597);
 }
+
+/* ///////////////////////////INIT CANVAS DISPLAY////////////////////////////// */
 /* .canvas-one {
   background-color: rgba(255, 0, 0, 0.357);
   height: 600px;
 } */
-/* ///////////////////////////GAME PLAY PAGES////////////////////////////// */
 
+/* ///////////////////////////GAME PLAY PAGES////////////////////////////// */
+/* Main Start Page Container*/
 .startPg-container {
-  background: url("./backgrounds/START.jpeg") no-repeat center fixed;
-  width: 100%;
-  height: 900px;
-  background-size: 100% 100%;
-  border: 2px solid #e9385a;
+  display: grid;
 }
+/* Story Display*/
 .story-text {
   text-align: center;
-  font-size: 30px;
-  z-index: -1;
-  border: 2px green solid;
+  font-size: 3vh;
   color: white;
+  font-family: "Special Elite", cursive;
+  width: 100%;
+}
+.paragraph {
+  padding: 0px 140px 0px 140px;
+}
+/* Canvas Display*/
+.start-canvas {
+  background: url("./backgrounds/START.jpeg") no-repeat center fixed;
+  width: 100%;
+  height: 800vh;
+  background-size: 100% 100%;
 }
