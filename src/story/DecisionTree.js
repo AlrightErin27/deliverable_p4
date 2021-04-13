@@ -59,7 +59,7 @@ const dStory = new Node(
   story.dStory.story,
   story.dStory.choiceA,
   story.dStory.choiceB,
-  "/backgrounds/D.jpeg"
+  "/backgrounds/D.jpg"
 );
 
 //END STORY: LOSER!!!
@@ -68,7 +68,7 @@ const eStory = new Node(
   story.eStory.story,
   story.eStory.choiceA,
   story.eStory.choiceB,
-  "/backgrounds/E.jpeg"
+  "/backgrounds/E.png"
 );
 
 //END STORY: WINNER!!!

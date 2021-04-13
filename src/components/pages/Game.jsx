@@ -1,7 +1,7 @@
 import tree from "../../story/DecisionTree";
 import { useState } from "react";
 
-const StartPage = () => {
+const Game = () => {
   //set State
   const [gameState, setGameState] = useState(tree.root);
   // console.log(gameState);
@@ -16,7 +16,7 @@ const StartPage = () => {
         <img src={gameState.backgroundImg} alt="background" />
       </div>
 
-      <div className="butt-holder">
+      <div className="button-container">
         <button
           className="story-button"
           onClick={() => setGameState(gameState.choiceOne)}
@@ -34,4 +34,4 @@ const StartPage = () => {
     </div>
   );
 };
-export default StartPage;
+export default Game;

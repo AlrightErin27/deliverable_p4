@@ -1,5 +1,5 @@
 import candle from "../../game-imgs/candle.gif";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const home = () => (
   <div className="heading-text">
@@ -8,7 +8,7 @@ const home = () => (
     <h3 className="h3-title-text">In the Withering Kingdom of Halyth</h3>
     <img src={candle} alt="flickeringCandle" className="candle" />
     <div>
-      <Link to={"/start-page"} className="simple-button">
+      <Link to={"/game"} className="simple-button">
         Begin Adventure
       </Link>
     </div>

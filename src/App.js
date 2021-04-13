@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
 // import Canvas from "./components/Canvas";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //Route to Page Imports
 import home from "./components/pages/home";
-import StartPage from "./components/pages/StartPage";
+import Game from "./components/pages/Game";
 
 function App() {
   //////////////////Logical Size Fxn///////////////////////////////
@@ -69,7 +69,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Switch>
-          <Route path="/start-page" component={StartPage} exact={true} />
+          <Route path="/game" component={Game} exact={true} />
           <Route path="/" component={home} exact={true} />
         </Switch>
       </div>

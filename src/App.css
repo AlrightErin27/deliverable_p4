@@ -67,7 +67,7 @@
 }
 .story-text {
   text-align: center;
-  font-size: 3.2vh;
+  font-size: 2.8vh;
   color: white;
   font-family: "Special Elite", cursive;
   text-shadow: 3px 3px #000000;
@@ -89,14 +89,16 @@
   display: flex;
   position: fixed;
 }
-.butt-holder {
+.button-container {
   display: flex;
   justify-content: center;
   position: absolute;
   top: 80%;
-  right: 0;
+  width: 100%;
+  align-items: center;
 }
 .story-button {
+  height: 120px;
   margin: 23px;
   white-space: pre-line;
   font-family: "Press Start 2P", cursive;
