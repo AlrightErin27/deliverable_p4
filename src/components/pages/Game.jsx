@@ -1,10 +1,11 @@
 import tree from "../../story/DecisionTree";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Game = () => {
   //set State
   const [gameState, setGameState] = useState(tree.root);
-  // console.log(gameState);
+  console.log(gameState.results);
 
   return (
     <div className="story-container">
@@ -33,6 +34,12 @@ const Game = () => {
           >
             {gameState.choiceTwoText}
           </button>
+        )}
+
+        {gameState.results && (
+          <Link to={"/"} className="story-button">
+            {gameState.results}
+          </Link>
         )}
       </div>
     </div>

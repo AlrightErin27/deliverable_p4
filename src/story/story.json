@@ -16,22 +16,18 @@
   },
   "cStory": {
     "story": "You knock thrice upon the weathered Witch's door, & it creaks open loudly.\nHer voice is filling your ears, warm & smooth like honey.\nShe pulls you into a small intimate room, feeling her presence behind you.\nHer boney fingers clutching your shoulders harshly.\n'Come to find your fortune? Look deeply into the eyes of Raydom the conqueror, who met his end here some 200 years ago in this very room!'\nYour attention is drawn to skull on the table surrounded by dripping c&les.\nYou gaze into the empty sockets where the storied hero's blue eyes used to have been.\nYour bravery in the face of such ghoulish conditions is seen by Raydom.\nHe has weighed your soul & you are the chosen one to carry on his quest.\nThere is a shrill scream & your surroundings swirl away. You are now the proud owner of the renowned Vorpal Blade of Edenith, entitling you to rule the Eight Kingdoms of Halyth!",
-    "choiceA": null,
-    "choiceB": null
+    "results": "You win!"
   },
   "dStory": {
     "story": "The smell of sweet fresh air feels like a restorative tonic.\nYou gulp it down & head away from the Witch's entanglement.\nYou walk into what seems to be a light green whimsical garden.\nIn front of you is a large tree, teeming with life & the sweet songs of birds.\nYour mouth is so parched.\nYou see the glistening clear water of a pond beneath its branches.\nIn the shallows there is a glistening golden goblet.\nYou reach into they pool & pull it up filled with delicious crisp crystal water.\nIt tastes foul in your mouth!\nYour cowardice has led you astray.\nThe room was a mirage. A trap laid by the Witch herself!\nYou have been poisoned!",
-    "choiceA": null,
-    "choiceB": null
+    "results": "You lose!"
   },
   "eStory": {
     "story": "Your limbs are heavy, as if filled with sand.\nYou fall & hit hard against the base of a tree.\nTo you horror, you realize you are face to face with a large skull reeking of noxious dark magic.\nYou have fallen into a Witch's trap!\nYou're surrounded by her deadly trinkets, & doomed to wait for her to come check her ensnarement.",
-    "choiceA": null,
-    "choiceB": null
+    "results": "You lose!"
   },
   "fStory": {
     "story": "You approach the house & find that is an enormous toadstool,\nwith a chimney puffing merry smoke.\nThe aromas of neillaflowers in the spring, & tangy rosemary fills your nose.\nYou regain you composure, the spell lifted.\nA kind Gnibbling couple greets you at the home's door, & fills you up a long flagon of steaming mulder spice broth.\nThey tell you of their missing child, & after your rest you vow to bring young Gnibblet home.\nYou found your calling!",
-    "choiceA": null,
-    "choiceB": null
+    "results": "You win!"
   }
 }

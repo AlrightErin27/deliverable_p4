@@ -10,13 +10,14 @@ class DecisionTree {
 
 // Node class
 class Node {
-  constructor(story, choiceOneText, choiceTwoText, backgroundImg) {
+  constructor(story, choiceOneText, choiceTwoText, backgroundImg, results) {
     this.story = story;
     this.choiceOne = null; //refers to next page (node)
     this.choiceTwo = null; //refers to next page (node)
     this.choiceOneText = choiceOneText; //text on the button
     this.choiceTwoText = choiceTwoText; //text on the button
     this.backgroundImg = backgroundImg;
+    this.results = results;
   }
 }
 
@@ -50,7 +51,8 @@ const cStory = new Node(
   story.cStory.story,
   story.cStory.choiceA,
   story.cStory.choiceB,
-  "/backgrounds/C.jpeg"
+  "/backgrounds/C.jpeg",
+  story.cStory.results
 );
 
 //END STORY: LOSER!!!
@@ -59,7 +61,8 @@ const dStory = new Node(
   story.dStory.story,
   story.dStory.choiceA,
   story.dStory.choiceB,
-  "/backgrounds/D.jpg"
+  "/backgrounds/D.jpg",
+  story.dStory.results
 );
 
 //END STORY: LOSER!!!
@@ -68,7 +71,8 @@ const eStory = new Node(
   story.eStory.story,
   story.eStory.choiceA,
   story.eStory.choiceB,
-  "/backgrounds/E.png"
+  "/backgrounds/E.png",
+  story.eStory.results
 );
 
 //END STORY: WINNER!!!
@@ -77,7 +81,8 @@ const fStory = new Node(
   story.fStory.story,
   story.fStory.choiceA,
   story.fStory.choiceB,
-  "/backgrounds/F.jpeg"
+  "/backgrounds/F.jpeg",
+  story.fStory.results
 );
 
 //connect start story to story "A"
