@@ -48,17 +48,17 @@ function App() {
   // };
   //////////////////////////////////////////////
   //insert drawn fxn into canvas component
-  const draw = (ctx, frameCount) => {
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-    //controls ball's color
-    ctx.fillStyle = "#800000";
-    ctx.beginPath();
-    //first two arguments control where the circle is on the canvas
-    //third argument controls balls largest size
-    //what frame count is multiplied by controls what frequency the ball enlarges
-    ctx.arc(150, 100, 30 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
-    ctx.fill();
-  };
+  // const draw = (ctx, frameCount) => {
+  //   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+  //   //controls ball's color
+  //   ctx.fillStyle = "#800000";
+  //   ctx.beginPath();
+  //   //first two arguments control where the circle is on the canvas
+  //   //third argument controls balls largest size
+  //   //what frame count is multiplied by controls what frequency the ball enlarges
+  //   ctx.arc(150, 100, 30 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
+  //   ctx.fill();
+  // };
   //////////////////////////////////////////////
   // const postdraw = (index, ctx) => {
   //   index++;
