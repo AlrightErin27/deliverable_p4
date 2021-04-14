@@ -17,7 +17,7 @@ class Node {
     this.choiceOneText = choiceOneText; //text on the button
     this.choiceTwoText = choiceTwoText; //text on the button
     this.backgroundImg = backgroundImg;
-    this.results = results;
+    this.results = results; //says if won or lost (as link on pg)
   }
 }
 

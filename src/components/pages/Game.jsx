@@ -37,7 +37,7 @@ const Game = () => {
         )}
 
         {gameState.results && (
-          <Link to={"/"} className="story-button">
+          <Link to={"/"} className="story-link">
             {gameState.results}
           </Link>
         )}
