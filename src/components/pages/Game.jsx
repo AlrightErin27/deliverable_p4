@@ -45,7 +45,7 @@ const Game = () => {
       </div>
 
       {/* ------------------------------CANVAS HERE----------------------- */}
-      <Canvas draw={draw} />
+      <Canvas draw={draw} className="canvas" />
 
       <div className="button-container">
         {gameState.choiceOneText && (
