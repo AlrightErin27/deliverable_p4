@@ -17,19 +17,23 @@ const Game = () => {
       </div>
 
       <div className="button-container">
-        <button
-          className="story-button"
-          onClick={() => setGameState(gameState.choiceOne)}
-        >
-          {gameState.choiceOneText}
-        </button>
+        {gameState.choiceOneText && (
+          <button
+            className="story-button"
+            onClick={() => setGameState(gameState.choiceOne)}
+          >
+            {gameState.choiceOneText}
+          </button>
+        )}
 
-        <button
-          className="story-button"
-          onClick={() => setGameState(gameState.choiceTwo)}
-        >
-          {gameState.choiceTwoText}
-        </button>
+        {gameState.choiceTwoText && (
+          <button
+            className="story-button"
+            onClick={() => setGameState(gameState.choiceTwo)}
+          >
+            {gameState.choiceTwoText}
+          </button>
+        )}
       </div>
     </div>
   );
