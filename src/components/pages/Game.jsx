@@ -8,7 +8,24 @@ const Game = () => {
   const [gameState, setGameState] = useState(tree.root);
   console.log(gameState.results);
 
+  //fxn makes canvas controllable via css
+  function resizeCanvasToDisplaySize(canvas) {
+    const { width, height } = canvas.getBoundingClientRect();
+    if (canvas.width !== width || canvas.height !== height) {
+      canvas.width = width;
+      canvas.height = height;
+      return true; // here you can return some useful info like delta width and
+      //delta height instead of just true
+      // this information can be used in the next redraw...
+    }
+    return false;
+  }
+
   //insert drawn fxn into CANVAS component
+  //   Draw fxn: Takes the frame counter
+  //   as argument & radius of the circle changes/ time.
+  //   We also clear the canvas with clearRect fxn, otherwise it
+  //   would draw over the previous draw every iteration.
   const draw = (ctx, frameCount) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.fillStyle = "#000000";
