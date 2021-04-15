@@ -2,11 +2,11 @@ import tree from "../../story/DecisionTree";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Canvas from "../Canvas";
+// import image_local from "../../warrior";
 
 const Game = () => {
   //set State
   const [gameState, setGameState] = useState(tree.root);
-  console.log(gameState.results);
 
   //fxn makes canvas controllable via css
   function resizeCanvasToDisplaySize(canvas) {
@@ -30,7 +30,8 @@ const Game = () => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.fillStyle = "#000000";
     ctx.beginPath();
-    ctx.arc(50, 100, 20 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
+    ctx.drawImage();
+    // ctx.arc(50, 100, 20 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
     ctx.fill();
   };
 
