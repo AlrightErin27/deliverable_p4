@@ -1,12 +1,26 @@
 import tree from "../../story/DecisionTree";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import Canvas from "../Canvas";
-// import image_local from "../../warrior";
+import warrior from "../../warrior/walk/WALK0.png";
 
 const Game = () => {
   //set State
   const [gameState, setGameState] = useState(tree.root);
+  const myCanvas = useRef(null);
+
+  // useEffect(() => {
+  //   updateCanvas();
+  // }, []);
+
+  const updateCanvas = () => {
+    const ctx = this.refs.myCanvas.getContext("2d");
+    const img = new Image();
+    img.src = warrior;
+    img.onload = function () {
+      ctx.drawImage(img, 40, 40);
+    };
+  };
 
   //fxn makes canvas controllable via css
   function resizeCanvasToDisplaySize(canvas) {
@@ -30,7 +44,7 @@ const Game = () => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.fillStyle = "#000000";
     ctx.beginPath();
-    ctx.drawImage();
+
     // ctx.arc(50, 100, 20 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
     ctx.fill();
   };
@@ -46,7 +60,7 @@ const Game = () => {
       </div>
 
       {/* ------------------------------CANVAS HERE----------------------- */}
-      <Canvas draw={draw} className="canvas" />
+      <Canvas ref={myCanvas} draw={draw} className="canvas" />
 
       <div className="button-container">
         {gameState.choiceOneText && (

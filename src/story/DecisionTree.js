@@ -1,5 +1,11 @@
 //import from json
 const story = require("./story.json");
+// const walk_0 = require("../warrior/walk/WALK0.png");
+// const walk_1 = require("../warrior/walk/WALK1.png");
+// const walk_2 = require("../warrior/walk/WALK2.png");
+// const walk_3 = require("../warrior/walk/WALK3.png");
+// const walk_4 = require("../warrior/walk/WALK4.png");
+// const walk_5 = require("../warrior/walk/WALK5.png");
 
 //makes root of tree
 class DecisionTree {
@@ -10,7 +16,14 @@ class DecisionTree {
 
 // Node class
 class Node {
-  constructor(story, choiceOneText, choiceTwoText, backgroundImg, results) {
+  constructor(
+    story,
+    choiceOneText,
+    choiceTwoText,
+    backgroundImg,
+    results,
+    animation
+  ) {
     this.story = story;
     this.choiceOne = null; //refers to next page (node)
     this.choiceTwo = null; //refers to next page (node)
@@ -18,6 +31,7 @@ class Node {
     this.choiceTwoText = choiceTwoText; //text on the button
     this.backgroundImg = backgroundImg;
     this.results = results; //says if won or lost (as link on pg)
+    this.animation = animation;
   }
 }
 
@@ -26,7 +40,9 @@ const start = new Node(
   story.startStory.story,
   story.startStory.choiceA,
   story.startStory.choiceB,
-  "/backgrounds/START.jpeg"
+  "/backgrounds/START.jpeg",
+  null,
+  "walk"
 );
 
 //LEFT SIDE OF TREE
@@ -34,7 +50,9 @@ const aStory = new Node(
   story.aStory.story,
   story.aStory.choiceA,
   story.aStory.choiceB,
-  "/backgrounds/A.jpeg"
+  "/backgrounds/A.jpeg",
+  null
+  // "run"
 );
 
 //RIGHT SIDE OF TREE
