@@ -17,7 +17,7 @@ const Game = () => {
         setFrame(frame + 1);
       }
     };
-    const interval = setInterval(incrementFrame, 1000);
+    const interval = setInterval(incrementFrame, 100);
     return () => {
       clearInterval(interval);
     };
@@ -34,7 +34,7 @@ const Game = () => {
       </div>
       <div className="animation">
         <img
-          src={`./warrior/${gameState.animation}/WALK${frame}.png`}
+          src={`./warrior/${gameState.animation}/${gameState.animation}${frame}.png`}
           alt="animation"
         />
       </div>

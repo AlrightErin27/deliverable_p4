@@ -51,8 +51,8 @@ const aStory = new Node(
   story.aStory.choiceA,
   story.aStory.choiceB,
   "/backgrounds/A.jpeg",
-  null
-  // "run"
+  null,
+  "run"
 );
 
 //RIGHT SIDE OF TREE
@@ -60,7 +60,9 @@ const bStory = new Node(
   story.bStory.story,
   story.bStory.choiceA,
   story.bStory.choiceB,
-  "/backgrounds/B.jpeg"
+  "/backgrounds/B.jpeg",
+  null,
+  "idle"
 );
 
 //END STORY: WINNER!!!
@@ -70,7 +72,8 @@ const cStory = new Node(
   story.cStory.choiceA,
   story.cStory.choiceB,
   "/backgrounds/C.jpeg",
-  story.cStory.results
+  story.cStory.results,
+  "jump"
 );
 
 //END STORY: LOSER!!!
@@ -80,7 +83,8 @@ const dStory = new Node(
   story.dStory.choiceA,
   story.dStory.choiceB,
   "/backgrounds/D.jpg",
-  story.dStory.results
+  story.dStory.results,
+  "hurt"
 );
 
 //END STORY: LOSER!!!
@@ -90,7 +94,8 @@ const eStory = new Node(
   story.eStory.choiceA,
   story.eStory.choiceB,
   "/backgrounds/E.png",
-  story.eStory.results
+  story.eStory.results,
+  "die"
 );
 
 //END STORY: WINNER!!!
@@ -100,7 +105,8 @@ const fStory = new Node(
   story.fStory.choiceA,
   story.fStory.choiceB,
   "/backgrounds/F.jpeg",
-  story.fStory.results
+  story.fStory.results,
+  "jump"
 );
 
 //connect start story to story "A"
