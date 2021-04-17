@@ -1,11 +1,5 @@
 //import from json
 const story = require("./story.json");
-// const walk_0 = require("../warrior/walk/WALK0.png");
-// const walk_1 = require("../warrior/walk/WALK1.png");
-// const walk_2 = require("../warrior/walk/WALK2.png");
-// const walk_3 = require("../warrior/walk/WALK3.png");
-// const walk_4 = require("../warrior/walk/WALK4.png");
-// const walk_5 = require("../warrior/walk/WALK5.png");
 
 //makes root of tree
 class DecisionTree {
@@ -42,7 +36,7 @@ const start = new Node(
   story.startStory.choiceB,
   "/backgrounds/START.jpeg",
   null,
-  "walk"
+  "idle"
 );
 
 //LEFT SIDE OF TREE
@@ -52,7 +46,7 @@ const aStory = new Node(
   story.aStory.choiceB,
   "/backgrounds/A.jpeg",
   null,
-  "run"
+  "walk"
 );
 
 //RIGHT SIDE OF TREE
@@ -84,7 +78,7 @@ const dStory = new Node(
   story.dStory.choiceB,
   "/backgrounds/D.jpg",
   story.dStory.results,
-  "hurt"
+  "die"
 );
 
 //END STORY: LOSER!!!
