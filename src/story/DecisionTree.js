@@ -115,5 +115,5 @@ bStory.choiceOne = eStory; //LOSE
 bStory.choiceTwo = fStory; //WIN
 
 const tree = new DecisionTree(start);
-console.log(tree);
-module.exports = tree;
+// console.log(tree);
+export default tree;
