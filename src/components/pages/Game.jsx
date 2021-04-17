@@ -17,7 +17,7 @@ const Game = () => {
         setFrame(frame + 1);
       }
     };
-    const interval = setInterval(incrementFrame, 100);
+    const interval = setInterval(incrementFrame, 70);
     return () => {
       clearInterval(interval);
     };
