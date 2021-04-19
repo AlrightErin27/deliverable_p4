@@ -1,5 +1,5 @@
 import tree from "../../story/DecisionTree";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Game = () => {
