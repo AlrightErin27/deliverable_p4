@@ -116,6 +116,5 @@ bStory.choiceTwo = fStory; //WIN
 
 const tree = new DecisionTree(start);
 // console.log(tree);
-// module.exports = tree;
 
 export default tree;
