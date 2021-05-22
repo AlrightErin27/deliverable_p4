@@ -34,7 +34,7 @@ const Game = () => {
       </div>
       <div className="animation">
         <img
-          src={`./warrior/${gameState.animation}/${gameState.animation}${frame}.png`}
+          src={`/warrior/${gameState.animation}/${gameState.animation}${frame}.png`}
           alt="animation"
         />
       </div>
