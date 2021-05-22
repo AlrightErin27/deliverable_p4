@@ -34,7 +34,7 @@ const start = new Node(
   story.startStory.story,
   story.startStory.choiceA,
   story.startStory.choiceB,
-  "./backgrounds/START.jpeg",
+  "/backgrounds/START.jpeg",
   null,
   "idle"
 );
