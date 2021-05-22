@@ -2,6 +2,7 @@
   "name": "deliverable_p4",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alrighterin27.github.io/p4_ChooseYouOwnAdventure/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
